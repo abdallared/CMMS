@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #e6f7f8;
+  --color-brand-100: #cceef0;
+  --color-brand-200: #99dde2;
+  --color-brand-300: #66cbd3;
+  --color-brand-400: #33b9c5;
+  --color-brand-500: #00a8b6; /* Primary Teal */
+  --color-brand-600: #008692;
+  --color-brand-700: #00656d;
+  --color-brand-800: #004349;
+  --color-brand-900: #002224;
+  --color-brand-950: #001112;
+
+  --color-bg-light: #d8f0f2; /* The light blue background from the image */
+}
+
+body {
+  background-color: var(--color-bg-light);
+}
+
